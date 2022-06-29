@@ -56,8 +56,9 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      int sq = (number * number);
-      return sq;
+       int sq = (int) Math.pow(number,2);
+//      int sq = number * number;
+       return sq;
   }
 
 }

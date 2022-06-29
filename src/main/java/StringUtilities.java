@@ -23,10 +23,10 @@ public class StringUtilities {
      */
     public String reverse(String valueToBeReversed) {
         String rev = "";
-        char ch;
+        char c;
         for (int i =0; i < valueToBeReversed.length();i++){
-          ch = valueToBeReversed.charAt(i);
-          rev = ch+rev;
+          c = valueToBeReversed.charAt(i);
+          rev = c+rev;
         }
         return rev;
     }
@@ -47,7 +47,7 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
-//        return value.replace(char charToRemove, "");
+//        return value.replace(charToRemove, "");
       return null;
     }
 
