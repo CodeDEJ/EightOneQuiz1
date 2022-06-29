@@ -22,8 +22,9 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-        return null;
+                return null;
     }
+
 
     /**
      * @param word word to get middle character of
@@ -40,6 +41,7 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
+//        value.replace(charToRemove,"");
         return null;
     }
 

@@ -12,7 +12,7 @@ public class LoopFun
       public Integer factorial(Integer number){
           int factorial = 1;
           for(int i = number; i > 1; i--){
-              factorial *=i;
+              factorial *= i;
           }
           return factorial;
       }
@@ -25,7 +25,7 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+      return phrase.replaceAll("\\B.|\\P{L}", "").toUpperCase();
       }
 
       /**
