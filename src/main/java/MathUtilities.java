@@ -42,10 +42,7 @@ public class MathUtilities{
    * @return true if the number is odd, false if it is even
    */
   public Boolean isOdd(Integer number){
-      boolean odd = false;
-      if (number % 2 != 0){
-          odd = true;
-      }
+      boolean odd = number % 2 != 0;
       return odd;
   }
 

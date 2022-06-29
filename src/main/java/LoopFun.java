@@ -46,24 +46,12 @@ public class LoopFun {
 //      StringBuffer result = new StringBuffer();
     public String encrypt(String word) {
 
-//          for (int i=0; i<word.length(); i++){
-//              char ch = (char)(((int)word.charAt(i) +
-//                      3 - 97) % 26 + 97);
-//              result.append(ch);
-//              System.out.println(result);
-//          }
-//          return result;
-//      }
-//
-//          }
-
 
         char[] result = new char[word.length()];
         for (int i = 0; i < result.length; i++) {
             result[i] = (char) (((word.charAt(i) + 3 - 97) % 26 + 97));
         }
         String destString = new String(result);
-        System.out.println(result);
         return String.valueOf(result);
     }
 }

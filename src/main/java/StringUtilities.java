@@ -48,7 +48,7 @@ public class StringUtilities {
      */
     public String removeCharacter(String value, Character charToRemove) {
        String valueNew = value.replaceAll(String.valueOf(charToRemove), "");
-      return valueNew;
+        return valueNew;
     }
 
     /**
